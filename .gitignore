@@ -1,0 +1,30 @@
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python 编译与打包产物
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 运行日志与临时文件
+*.log
+MUJOCO_LOG.TXT
+lerobot-joycon-main/.codex_tmp/
+logs/
+tmp/
+wandb/
+
+# 本地录制数据与推理输出（体积大、可重新生成，不入库）
+lerobot-joycon-main/datasets/
+lerobot-joycon-main/outputs/
+data/
